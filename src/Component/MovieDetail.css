@@ -1,0 +1,279 @@
+.detail{
+    overflow:hidden;
+    margin-top: 80px;
+}
+.leftdiv{
+    float:left;
+    width: 300px;
+    padding: 50px;
+}
+
+.rightdiv{
+    float:left;
+    width: 1000px;
+    padding: 30px;
+}
+
+#title{
+    font-size:30px;
+    margin-top: 50px;
+}
+
+.slidediv{
+    width:100%;
+    display:inline-block;
+    margin-bottom: 30px;
+}
+
+.date{
+    display:inline-block;
+    margin-right:350px;
+
+}
+
+.duration{
+    display:inline-block;
+}
+
+.rating{
+    float: right;
+    
+}
+
+#vote{
+    float:left;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.genrelink{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 15px;
+}
+
+.genrelink:hover{
+    transform:scale(1.08);
+    font-weight: bold;
+}
+.overview{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttondiv{
+    margin-top: 30px;
+    margin-left: 330px;
+}
+.btn{
+    height: 45px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+.btn:hover{
+    background-color: #4C4C4E;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.cast{
+    margin:20px;
+    margin-top : -25px;
+}
+
+@media screen and (max-width: 1079px) {
+    .leftdiv{
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .detail{
+        width: 100vw;
+    }
+    .leftdiv{
+        float:left;
+        width: 500px;
+        margin-left: 180px;
+    }
+    
+    .rightdiv{
+        float:left;
+        width: 100vw;
+        
+    }
+    
+    #title{
+        font-size:30px;
+        margin-top: 50px;
+    }
+    
+    .slidediv{
+        width:auto;
+        display:inline-block;
+        margin-bottom: 30px;
+    }
+    
+    .date{
+        display:inline-block;
+        margin-right:150px;
+    
+    }
+    
+    .duration{
+        display:inline-block;
+        margin-right:150px;
+    }
+    
+    .rating{
+        float: right;
+        
+    }
+    
+    #vote{
+        float:left;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    
+    .genrelink{
+        text-decoration: none;
+        color: inherit;
+        margin-left: 15px;
+    }
+    
+    .genrelink:hover{
+        transform:scale(1.08);
+        font-weight: bold;
+    }
+    .overview{
+        width: 95vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    
+    .buttondiv{
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+    .btn{
+        margin-left: 20px;
+        
+    }
+    
+    
+    .cast{
+        width: 100vw;
+    }
+    
+  
+  
+}
+
+
+@media screen and (max-width: 539px) {
+    .detail{
+        width: 100vw;
+    }
+    .leftdiv{
+        margin-left: 90px;
+    }
+    
+    .rightdiv{
+        float:left;
+        width: 100vw;
+        
+    }
+    
+    #title{
+        font-size:30px;
+        margin-top: 50px;
+    }
+    
+    .date{
+        display:inline-block;
+        margin-right:100px;
+    
+    }
+    .overview{
+        width: 95vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    
+    .duration{
+        display:inline-block;
+        margin-right:100px;
+    }
+    
+    
+    .buttondiv{
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    
+    
+    
+  
+  
+}
+
+
+
+@media screen and (max-width: 415px) {
+    .detail{
+        width: 100vw;
+    }
+    .leftdiv{
+        margin-left: 24px;
+    }
+    
+    .rightdiv{
+        float:left;
+        width: 100vw;
+        
+    }
+    
+    #title{
+        font-size:30px;
+        margin-top: 50px;
+    }
+    
+    .date{
+        display:inline-block;
+        margin-right:45px;
+    
+    }
+    
+    .duration{
+        display:inline-block;
+        margin-right:45px;
+    }
+    .overview{
+        width: 96vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    
+    
+    .buttondiv{
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    
+    
+    
+  
+  
+}

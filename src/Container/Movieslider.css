@@ -1,0 +1,38 @@
+.movslider{
+    overflow:hidden;
+    white-space:nowrap;
+    margin:20px;
+    
+}
+
+.movlink{
+    margin-left: 25px;
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+
+.movlink:hover{
+    color:darkgray;
+    transform: scale(1.08);
+}
+
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+
+.scroller{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

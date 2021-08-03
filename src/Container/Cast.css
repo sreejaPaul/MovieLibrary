@@ -1,0 +1,38 @@
+.maindiv{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}
+.divstyle{
+    float:left;
+    padding: 20px;
+    
+}
+
+.divstyle:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.namestyle{
+    text-decoration: none;
+    color:inherit;
+
+}
+
+.imgstyle{
+    height: 80px;
+    width: 70px;
+    border-radius: 30px;
+    display: inline-block;
+    
+}
+
+
+.maindiv::-webkit-scrollbar {
+    display: none;
+}
+
+.maindiv {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

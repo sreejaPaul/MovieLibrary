@@ -1,0 +1,21 @@
+
+.genrecard{
+    margin: 25px;
+    margin-right: 0px;
+    backface-visibility:hidden;
+    border: 1px solid black;
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+    border-radius: 10px;
+    height: 60px;
+    width: 100px;
+    cursor: pointer;
+    float:left;
+    font-weight: bold;
+}
+
+.genrecard:hover{
+    transform: scale(1.08);
+    background-color: #4C4C4E;
+    color:white;
+
+}

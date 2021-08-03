@@ -1,0 +1,108 @@
+#titledivstyle {
+    height: 80px;
+    width: 100vw;
+    background-color: #4C4C4E;
+    top: 0;
+    margin-right:0;
+    bottom:0;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    position: absolute;
+    
+}
+
+.titlestyle{
+    padding: 8px 10px 20px 25px;
+    display: inline-block;
+    color: #EBEBEF;
+}
+
+#titlelink{
+    text-decoration: none;
+    color:inherit;
+}
+
+#searchdivstyle{
+    float: right;
+    padding: 25px 30px 20px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#inputboxstyle{
+    height:30px;
+    width:450px;
+    border-radius: 20px;
+    background-color: #EBEBEF;
+}
+
+#searchbuttonstyle{
+    height:30px;
+    width:30px;
+    border-radius: 30px;
+    border: none;
+    margin-left: -35px;
+    cursor: pointer;
+    background-color: #EBEBEF,
+
+}
+
+
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+
+::placeholder {
+    font-weight: bold;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   font-weight: bold;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   font-weight: bold;
+  }
+
+@media screen and (max-width: 768px) {
+    
+    #inputboxstyle{
+        width: 250px;
+        font-size: 78%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .titlestyle{
+        padding: 10px;
+        margin:0px;
+    }
+
+    #titledivstyle{
+        width: 100vw;
+        
+    }
+    
+  
+  
+}
+
+@media screen and (max-width: 539px) {
+    #inputboxstyle{
+        width: calc(var(--width)/3);
+        font-size: 80%;
+    }
+
+    
+    
+  
+  
+}
+
+
+
+
+

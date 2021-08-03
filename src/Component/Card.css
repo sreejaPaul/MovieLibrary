@@ -1,0 +1,59 @@
+.card{
+    padding: var(--spacing-small);
+    -moz-osx-font-smoothing:grayscale;
+    backface-visibility:hidden;
+    transform:translateZ(0);
+    transition:transform 0.25s ease-out;
+    border-width:.25rem;
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+    border-radius: 10px;
+    width: 220px;
+    cursor: pointer;
+}
+.divBorder{
+    float:left;
+    margin:10px;
+    height:350px;
+    padding: 18px;
+    transition: transform 450ms;
+}
+
+.divBorder:hover{
+    transform: scale(1.08);
+}
+.titleBorder{
+    text-align: center;
+    width: 200px;
+    white-space: pre-line;
+    
+}
+
+.invalid{
+    margin: 80px;
+}
+
+
+@media screen and (max-width: 770px) {
+    
+    .divBorder{
+        padding: 55px;
+    }
+}
+
+
+@media screen and (max-width: 716px) {
+    
+    .divBorder{
+        margin-left: 80px;
+        margin-right: 70px;
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+    
+    .divBorder{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+}

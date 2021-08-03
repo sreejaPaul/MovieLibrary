@@ -1,0 +1,77 @@
+.castimgstyle{
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    
+}
+
+#posterImage{
+    margin-left: 24px;
+}
+
+
+#castname{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.bday{
+    margin-bottom: 30px;
+}
+.castbtn{
+    height: 45px;
+    width: 150px;
+    margin-left: 22px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.castbtn:hover{
+    background-color: #4C4C4E;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.castbtndiv{
+    margin-top: 60px;
+    margin-left: 280px;
+}
+
+
+@media screen and (max-width: 770px) {
+    #posterImage{
+        margin-left: 21px;
+    }
+
+    #castbio{
+        width: 95vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    .castbtndiv{
+        margin-left: 239px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    #posterImage{
+        margin-left: 10px;
+    }
+
+    #castbio{
+        width: 95vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    .castbtndiv{
+        margin-left: 180px;
+    }
+    .castbtn{
+        margin-left: 0;
+    }
+}

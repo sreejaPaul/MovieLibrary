@@ -1,0 +1,54 @@
+h1 {
+    margin-left : 32px;
+}
+
+.movie{
+    margin-left: 35px;
+    overflow: hidden;
+}
+
+#homebutton{
+    float:right;
+    border-radius: 30px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+#homebutton:hover{
+    transform: scale(1.08);
+}
+
+#nextbtn {
+    height: 41px;
+    width: 120px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    background-color: white;
+    float: right;
+}
+
+#prevbtn{
+    height: 41px;
+    width: 120px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    background-color: white;
+    float: left;
+}
+#nextbtn:hover {
+    background-color: #4C4C4E;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.08);
+
+}
+
+#prevbtn:hover {
+    background-color: #4C4C4E;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.08);
+
+}
